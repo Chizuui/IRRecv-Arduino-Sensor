@@ -1,5 +1,10 @@
 #include <IRremote.h>   //Memasukan library IR Remote
 
+int LED_RED = 12
+int LED_GREEN = 13
+int LED_BLUE = 4
+int LED_WHITE = 5
+
 int RECV_PIN = 6;      //Lokasi pin data dari Receiver IR
 IRrecv irrecv(RECV_PIN);  //Membuat objek receiver dengan nama irrecv
 decode_results results;   //membuat objek hasil penerimaan data penekanan tombol remot dengan nama results
