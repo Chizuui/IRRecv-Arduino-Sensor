@@ -30,27 +30,27 @@ void loop() {
 
       //Kondisi saat tombol Remot
       switch(data){
-        case 16738455:    //Jika angka 1 remot ditekan 
+        case 0xFF30CF:    //Jika angka 1 remot ditekan 
           digitalWrite (12, HIGH);   //hidupkan LED 1
           digitalWrite (13, LOW);    //matikan LED 2
           digitalWrite (4, LOW);    //matikan LED 3
           digitalWrite (5, LOW);    //matikan LED 4
         break;
 
-        case 16750695:    //Jika angka 2 remot ditekan 
+        case 0xFF18E7:    //Jika angka 2 remot ditekan 
           digitalWrite (12, LOW);   //matikan LED 1
           digitalWrite (13, HIGH);  //hidupkan LED 2
           digitalWrite (4, LOW);    //matikan LED 3
           digitalWrite (5, LOW);    //matikan LED 4
         break;
 
-        case 16756815:    //Jika angka 3 remot ditekan 
+        case 0xFF7A85:    //Jika angka 3 remot ditekan 
           digitalWrite (2, LOW);   //matikan LED 1
           digitalWrite (3, LOW);   //matikan LED 2
           digitalWrite (4, HIGH);  //hidupkan LED 3
           digitalWrite (5, LOW);   //matikan LED 4
         break;
-        case 16724175:    //Jika angka 4 remot ditekan 
+        case 0xFF10EF:    //Jika angka 4 remot ditekan 
           digitalWrite (2, LOW);   //matikan LED 1
           digitalWrite (3, LOW);    //matikan LED 2
           digitalWrite (4, LOW);    //matikan LED 3
